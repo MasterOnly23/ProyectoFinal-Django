@@ -1,0 +1,85 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coder Blog</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="{% static '/img/blog_icons/apple-icon-57x57.png' %}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{% static '/img/blog_icons/apple-icon-60x60.png %}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{% static '/img/blog_icons/apple-icon-72x72.png %}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{% static '/img/blog_icons/apple-icon-76x76.png %}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{% static '/img/blog_icons/apple-icon-114x114.png %}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{% static '/img/blog_icons/apple-icon-120x120.png %}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{% static '/img/blog_icons/apple-icon-144x144.png %}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{% static '/img/blog_icons/apple-icon-152x152.png %}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static '/img/blog_icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{% static '/img/blog_icons/android-icon-192x192.png %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static '/img/blog_icons/favicon-32x32.png %}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{% static '/img/blog_icons/favicon-96x96.png %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static '/img/blog_icons/favicon-16x16.png %}">
+    <link rel="manifest" href="{% static '/img/blog_icons/manifest.json %}">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="{% static '/img/blog_icons/ms-icon-144x144.png %}">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="{% static '/css/bootstrap.css' %}">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#header"><img src="{% static '/img/images/icon_blog-removebg-preview.png' %}" alt="logo_blog" width="60" height="38" class="d-inline-block align-text-top"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item ">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Noticias</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Juegos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">FIFA 23</a></li>
+                      <li><a class="dropdown-item" href="#">League of Legends</a></li>
+                      <!-- <li><hr class="dropdown-divider"></li> -->
+                      <li><a class="dropdown-item" href="#">CoD Warzone</a></li>
+                      <li><a class="dropdown-item" href="#">Fornite</a></li>
+                      <li><a class="dropdown-item" href="#">Guild Wars 2</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Guias</a>
+                </li>
+                </ul>
+                <li class="nav-item dropdown  me-auto mb-2 mb-lg-0 user-icon">
+                    <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="{% static 'user-interface.png' %}" alt="user-interface" width="45" height="45" class="d-inline-block align-text-top">
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Iniciar Sesión</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Registrarse</a></li>
+                    </ul>
+                </li>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+      <script src="bootstrap.min.js"></script>
+      <script src="bootstrap.bundle.js"></script>
+    
+</body>
+</html>
